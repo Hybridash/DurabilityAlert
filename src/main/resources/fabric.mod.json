@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "durabilityalert",
+	"version": "${version}",
+	"name": "DurabilityAlert",
+	"description": "Warns you with a sound and a message when your tool or armor is about to break.",
+	"authors": ["Hybridash"],
+	"contact": {
+		"sources": "https://github.com/Hybridash/DurabilityAlert",
+		"issues": "https://github.com/Hybridash/DurabilityAlert/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.hybridash.durabilityalert.DurabilityAlertClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
